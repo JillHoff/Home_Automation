@@ -27,22 +27,21 @@
 * On the root partition of the SD card create a file named ssh (no file extention) on the root of the filesystem
 
 
-
-## Enable Wifi (so pi boots headless - monitor, keyboard, and Mouse is never needed directly on the pi)
+## Enable Wifi
 
 * on the root partion of the SD card create a file called wpa_supplicant.conf
   Enter the following Text (replace your wifi info and country code) into the wpa_supplicant.conf and save the file
   
 '''
-    country=US
-    ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-    update_config=1
+country=US
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
 
-    network={
+network={
         ssid="NETWORK-NAME"
         psk="NETWORK-PASSWORD"
     }
-''''
+'''
  
 
 # Boot, Login, and finish Configuration
@@ -59,17 +58,20 @@
    
 ## finisth Configuration
 
-Once logged on enter the command 'raspi-config' to set basic configuration parameters (you can do this through command line and file edits, but this is easy)
-  Minimum suggested changes:
-    1. option 1 -> Change User Password (everyone knows the default)
-    2. Option 2 -> Network Options -> N1 Change Host Name (becasue you want it to be a bit descriptive)
-  change any other optioin you need....click finish and reboot
+* Once logged on enter the command 'raspi-config'
+  * Minimum suggested changes:
+    * option 1 -> Change User Password (everyone knows the default)
+    * Option 2 -> Network Options -> N1 Change Host Name (becasue you want it to be a bit descriptive)
+  * Change any other optioin you need....click finish and reboot
   
- Logback on with new password:
- update OS
-      run sudo apt-get update
-      run sudo apt-get upgrade -y
-      wiat a long time for this to finish
+## Upgrade OS to latest patches
+
+* Logback on with new password
+* Update OS
+  * Run 'sudo apt-get update'
+  * Run 'sudo apt-get upgrade -y'
+  * wiat a long time for this to finish
+  * reboot 'sudo reboot'
 
       
  
