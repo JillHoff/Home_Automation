@@ -2,8 +2,8 @@
 
 
 ## Download the most current Raspberry Pi Image (minimal image - No desktop needed)
-* download from the [Raspbian image page](https://www.raspberrypi.org/downloads/raspbian/)
-* [direct image link](https://downloads.raspberrypi.org/raspbian_lite_latest)
+* Download from the [Raspbian image page](https://www.raspberrypi.org/downloads/raspbian/)
+* [Direct image link](https://downloads.raspberrypi.org/raspbian_lite_latest)
 * Extract the image into a folder
 
 
@@ -13,8 +13,8 @@
 
 
 ## Build SD Card for Raspberry Pi
-* insert SD Card into computer
-* run Etcher:
+* Insert SD Card into computer
+* Run Etcher:
     * Select image from above
     * Select SD card from above
     * Choose "Flash" and wait for installation to finish.
@@ -54,7 +54,7 @@ network={
   * On Windows that would be ssh pi@<IP_Address> 
 * Login in
    * accept the security warning by typing 'yes' (should only have to do this the first time)
-   * default password is 'raspberry'
+   * Default password is 'raspberry'
    
 ## finish Configuration
 
