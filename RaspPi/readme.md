@@ -32,7 +32,7 @@
 * on the root partion of the SD card create a file called wpa_supplicant.conf
   Enter the following Text (replace your wifi info and country code) into the wpa_supplicant.conf and save the file
   
-'''
+```
 country=US
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
@@ -41,7 +41,7 @@ network={
         ssid="NETWORK-NAME"
         psk="NETWORK-PASSWORD"
     }
-'''
+```
  
 
 # Boot, Login, and finish Configuration
