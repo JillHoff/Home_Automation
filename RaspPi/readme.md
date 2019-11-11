@@ -1,4 +1,4 @@
-# Build an SD card with basic Raspian boot config (wi-fi and SSH enabled)
+# Build Raspian SD with Wi-Fi and SSH enabled
 
 
 ## Download the most current Raspberry Pi Image (minimul image - No desktop needed)
