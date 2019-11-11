@@ -1,7 +1,7 @@
 # Build Raspian SD with Wi-Fi and SSH enabled
 
 
-## Download the most current Raspberry Pi Image (minimul image - No desktop needed)
+## Download the most current Raspberry Pi Image (minimal image - No desktop needed)
 * download from the [Raspbian image page](https://www.raspberrypi.org/downloads/raspbian/)
 * [direct image link](https://downloads.raspberrypi.org/raspbian_lite_latest)
 * Extract the image into a folder
