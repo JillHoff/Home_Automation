@@ -17,8 +17,8 @@
 * run Etcher:
     * Select image from above
     * Select SD card from above
-    * choose "Flash" and wiat for installation to finish.
-    * wait for build to complete
+    * Choose "Flash" and wait for installation to finish.
+    * Wait for build to complete
 
 
 ## Enable SSH by default:
@@ -29,7 +29,7 @@
 
 ## Enable Wifi
 
-* on the root partion of the SD card create a file called wpa_supplicant.conf
+* On the root partion of the SD card create a file called wpa_supplicant.conf
   Enter the following Text (replace your wifi info and country code) into the wpa_supplicant.conf and save the file
   
 ```
@@ -56,7 +56,7 @@ network={
    * accept the security warning by typing 'yes' (should only have to do this the first time)
    * default password is 'raspberry'
    
-## finisth Configuration
+## finish Configuration
 
 * Once logged on enter the command 'raspi-config'
   * Minimum suggested changes:
@@ -70,8 +70,8 @@ network={
 * Update OS
   * Run 'sudo apt-get update'
   * Run 'sudo apt-get upgrade -y'
-  * wiat a long time for this to finish
-  * reboot 'sudo reboot'
+  * Wait a long time for this to finish
+  * Reboot 'sudo reboot'
 
       
  
